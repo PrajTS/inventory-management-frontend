@@ -1,0 +1,9 @@
+<mat-toolbar>
+ <span class="spacer text-center cursor-pointer" (click)="navigateToHome()">Inventory Management</span>
+ <span *ngIf="user?.username">
+   Hi {{user?.username}}
+ </span>
+ <button mat-icon-button aria-label="Logout">
+  Logout
+</button>
+</mat-toolbar>
