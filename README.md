@@ -1,27 +1,51 @@
-# Frontend
+# Inventory Management system frontend - Angular 11
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
+## Steps to run
 
-## Development server
+```
+npm install
+npm start
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Deliverables
 
-## Build
+### Functional Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Login page, the user should be able to login using username and password - **Completed** - Implemented session login. 
+   Login creds: **username: admin | password: admin**
+2. Logout - **Completed**
+3. Create new products - **Completed**
+4. List products - **Completed**
+5. View product - **Completed**
+6. Delete product - **Completed**
 
-## Running unit tests
+### Non-functional Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Test coverage - **Not completed**
+2. Use state management - **Completed** - Used **ngrx**
+3. Use rxjs operators - **Completed**
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Screenshot
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Login page
+
+![Login](https://drive.google.com/uc?export=view&id=1elJKCwaG58r-KjMJslQsrqcVpzW2FUnp)
+
+#### View Inventory List
+
+![Login](https://drive.google.com/uc?export=view&id=1IrO0f1D8HsLt8yKe8LS4Q-4JRYj20UJ4)
+
+#### View Inventory Item
+
+![Login](https://drive.google.com/uc?export=view&id=1-egwISWS3MhU3CVXXxyyqawqTb9fAh_S)
+
+#### Add Inventory Item
+
+![Login](https://drive.google.com/uc?export=view&id=1DfKhy7a5pp2_8bh2DZN3voZ-lXyWdjs-)
+
+
+
